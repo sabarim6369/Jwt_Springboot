@@ -13,7 +13,6 @@ import java.io.IOException;
 
 @Component
 public class Filterperrequest extends OncePerRequestFilter {
-
     private final String secret = "MySuperSecretKeyForJWTGeneration12345";
 
     @Override

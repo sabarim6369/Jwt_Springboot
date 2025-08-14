@@ -6,7 +6,7 @@ import org.springframework.stereotype.Component; // <--- import this
 
 import java.util.Date;
 
-@Component  // <--- tell Spring to manage this class
+@Component
 public class Createjwt {
 
     private final String secret = "MySuperSecretKeyForJWTGeneration12345";
